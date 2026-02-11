@@ -8,9 +8,9 @@ export default function HowItWorksSection() {
     },
     {
       number: "2",
-      title: "Your contacts load automatically",
+      title: "Add your contacts",
       description:
-        "Open the app and your contacts load automatically from your phone.",
+        "Your contacts can be added singly or in multiples directly from phone contacts.",
       icon: "📇",
     },
     {
