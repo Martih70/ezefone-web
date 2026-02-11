@@ -14,10 +14,10 @@ export default function PricingSection() {
           </p>
         </div>
 
-        <div className="bg-bg_primary rounded-lg border-2 border-phone p-8 md:p-12 max-w-md mx-auto">
+        <div className="card border-2 border-phone p-8 md:p-12 max-w-md mx-auto shadow-card hover:shadow-card-hover transition-all">
           <div className="text-center mb-8">
-            <p className="text-sm text-text_secondary mb-2">One-time purchase</p>
-            <p className="text-5xl font-bold text-text_primary">£2.99</p>
+            <p className="text-sm text-text_secondary mb-2 font-semibold">One-time purchase</p>
+            <p className="text-6xl font-bold text-phone">£2.99</p>
           </div>
 
           <div className="space-y-4 mb-8">
@@ -57,7 +57,7 @@ export default function PricingSection() {
             href="https://play.google.com/store/apps/details?id=com.ezefone.app"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full block px-8 py-4 bg-phone text-white text-lg font-semibold rounded-lg hover:bg-emerald-700 transition-colors text-center"
+            className="btn-primary w-full block text-center text-lg"
           >
             Download on Google Play
           </a>

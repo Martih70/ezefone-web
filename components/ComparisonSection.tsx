@@ -13,9 +13,11 @@ export default function ComparisonSection() {
           {/* Left: Typical Smartphone */}
           <div className="text-center">
             <div className="mb-6 flex justify-center">
-              <div className="w-56 h-80 bg-gray-900 rounded-3xl border-8 border-gray-800 shadow-lg p-2">
+              <div className="w-56 h-80 bg-gray-900 rounded-3xl border-8 border-gray-800 shadow-card-hover p-2" style={{boxShadow: "0 20px 40px rgba(31, 41, 55, 0.2)"}}>
+              {/* Notch */}
+              <div className="h-5 bg-black rounded-b-2xl mb-1"></div>
                 <div className="bg-gray-100 rounded-2xl w-full h-full flex flex-col items-center justify-start p-4 overflow-hidden">
-                  <p className="text-xs font-semibold text-gray-600 mt-2">
+                  <p className="text-xs font-semibold text-gray-600 mt-4">
                     9:41
                   </p>
                   <div className="grid grid-cols-4 gap-2 mt-4 w-full flex-1">
@@ -42,7 +44,9 @@ export default function ComparisonSection() {
           {/* Right: EzeFone */}
           <div className="text-center">
             <div className="mb-6 flex justify-center">
-              <div className="w-56 h-80 bg-gray-900 rounded-3xl border-8 border-gray-800 shadow-lg p-2">
+              <div className="w-56 h-80 bg-gray-900 rounded-3xl border-8 border-gray-800 shadow-card-hover p-2" style={{boxShadow: "0 20px 40px rgba(31, 41, 55, 0.2)"}}>
+              {/* Notch */}
+              <div className="h-5 bg-black rounded-b-2xl mb-1"></div>
                 <div className="bg-bg_primary rounded-2xl w-full h-full flex flex-col items-center justify-center p-4">
                   <div className="space-y-3 w-full">
                     <button className="w-full py-4 bg-phone rounded-lg font-bold text-white text-lg hover:bg-emerald-700 transition-colors">

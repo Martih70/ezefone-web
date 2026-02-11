@@ -18,20 +18,34 @@ body {
 
 /* Heading styles for accessibility and consistency */
 h1 {
-  @apply text-4xl md:text-5xl font-bold;
+  @apply text-4xl md:text-5xl font-bold text-text_primary;
 }
 
 h2 {
-  @apply text-3xl md:text-4xl font-bold;
+  @apply text-3xl md:text-4xl font-bold text-text_primary;
 }
 
 h3 {
-  @apply text-2xl md:text-3xl font-bold;
+  @apply text-2xl md:text-3xl font-bold text-text_primary;
 }
 
 /* Button base styles */
 button {
-  @apply transition-colors duration-200;
+  @apply transition-all duration-200;
+}
+
+/* Primary buttons */
+.btn-primary {
+  @apply px-8 py-3 bg-phone text-white font-semibold rounded-lg hover:bg-emerald-700 shadow-button hover:shadow-card transition-all;
+}
+
+.btn-primary:disabled {
+  @apply bg-gray-300 text-gray-600 cursor-not-allowed shadow-none hover:shadow-none;
+}
+
+/* Card styles */
+.card {
+  @apply bg-white rounded-lg border border-border_light shadow-card hover:shadow-card-hover transition-shadow;
 }
 
 /* Links */

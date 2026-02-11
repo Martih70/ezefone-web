@@ -41,8 +41,8 @@ export default function FeaturesSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-12">
           {features.map((feature, index) => (
-            <div key={index} className="bg-white rounded-lg p-6 border border-border_light hover:shadow-lg transition-shadow">
-              <div className={`w-16 h-16 ${feature.color} rounded-lg flex items-center justify-center text-3xl mb-4`}>
+            <div key={index} className="card p-6 hover:shadow-card-hover group">
+              <div className={`w-16 h-16 ${feature.color} rounded-lg flex items-center justify-center text-3xl mb-4 shadow-button group-hover:shadow-card transition-all`}>
                 {feature.icon}
               </div>
               <h3 className="text-xl font-bold text-text_primary mb-2">
@@ -56,9 +56,9 @@ export default function FeaturesSection() {
         </div>
 
         {/* Favorites Callout */}
-        <div className="bg-white rounded-lg p-8 border-2 border-accent">
+        <div className="card p-8 border-2 border-accent shadow-card hover:shadow-card-hover bg-gradient-to-br from-white to-blue-50">
           <div className="text-center">
-            <p className="text-xl text-text_secondary mb-2">⭐ Pro Tip</p>
+            <p className="text-xl text-accent font-bold mb-2">⭐ Pro Tip</p>
             <p className="text-lg text-text_primary font-semibold">
               Pin your most-called people as Favourites for instant one-tap
               access.

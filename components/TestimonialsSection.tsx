@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg p-6 border border-border_light hover:shadow-lg transition-shadow"
+              className="card p-6 hover:shadow-card-hover group"
             >
               {/* Stars */}
               <div className="flex gap-1 mb-4">

@@ -23,13 +23,13 @@ export default function HeroSection() {
                 href="https://play.google.com/store/apps/details?id=com.ezefone.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-3 bg-phone text-white text-lg font-semibold rounded-lg hover:bg-emerald-700 transition-colors text-center"
+                className="btn-primary text-center text-lg"
               >
                 Download on Google Play
               </a>
               <button
                 disabled
-                className="px-8 py-3 bg-gray-300 text-gray-600 text-lg font-semibold rounded-lg cursor-not-allowed text-center"
+                className="px-8 py-3 bg-gray-300 text-gray-600 text-lg font-semibold rounded-lg cursor-not-allowed text-center transition-all"
               >
                 App Store Coming Soon
               </button>
@@ -38,7 +38,9 @@ export default function HeroSection() {
 
           {/* Right: Phone Mockup */}
           <div className="flex justify-center">
-            <div className="w-64 h-auto bg-white rounded-3xl border-8 border-gray-800 shadow-2xl p-4">
+            <div className="w-64 h-auto bg-white rounded-3xl border-8 border-gray-800 shadow-card-hover p-4" style={{boxShadow: "0 20px 40px rgba(31, 41, 55, 0.3)"}}>
+              {/* Notch simulation */}
+              <div className="h-6 bg-gray-900 rounded-b-2xl mb-2"></div>
               <div className="bg-gray-900 rounded-2xl aspect-[9/16] flex flex-col items-center justify-center text-white">
                 <div className="text-center space-y-8 w-full px-4">
                   <div className="pt-6">

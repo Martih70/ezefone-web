@@ -44,18 +44,18 @@ export default function FAQSection() {
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="border border-border_light rounded-lg">
+            <div key={index} className="card overflow-hidden hover:shadow-card-hover transition-all">
               <button
                 onClick={() =>
                   setOpenIndex(openIndex === index ? null : index)
                 }
-                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-white transition-colors"
+                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors"
               >
                 <span className="text-lg font-semibold text-text_primary">
                   {faq.question}
                 </span>
                 <span
-                  className={`text-2xl text-phone transition-transform ${
+                  className={`text-2xl text-phone transition-transform duration-200 ${
                     openIndex === index ? "rotate-180" : ""
                   }`}
                 >
@@ -64,7 +64,7 @@ export default function FAQSection() {
               </button>
 
               {openIndex === index && (
-                <div className="px-6 py-4 bg-white border-t border-border_light">
+                <div className="px-6 py-4 bg-gray-50 border-t border-border_light">
                   <p className="text-text_secondary leading-relaxed">
                     {faq.answer}
                   </p>

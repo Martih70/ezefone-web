@@ -17,6 +17,8 @@ const config: Config = {
         contacts: "#b45309",
         whatsapp: "#0d9488",
         accent: "#f59e0b",
+        dark_gray: "#1f2937",
+        dark_gray_light: "#374151",
       },
       fontFamily: {
         sans: [
@@ -28,6 +30,12 @@ const config: Config = {
           "Arial",
           "sans-serif",
         ],
+      },
+      boxShadow: {
+        card: "0 4px 6px rgba(15, 23, 42, 0.07), 0 2px 4px rgba(15, 23, 42, 0.05)",
+        "card-hover": "0 10px 15px rgba(15, 23, 42, 0.12), 0 4px 6px rgba(15, 23, 42, 0.08)",
+        button: "0 2px 4px rgba(15, 23, 42, 0.08)",
+        section: "0 1px 3px rgba(15, 23, 42, 0.05)",
       },
     },
   },

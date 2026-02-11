@@ -44,10 +44,10 @@ export default function HowItWorksSection() {
             <div key={index} className="relative">
               {/* Connector line */}
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-20 left-[60%] w-[80%] h-0.5 bg-border_light" />
+                <div className="hidden lg:block absolute top-20 left-[60%] w-[80%] h-1 bg-gradient-to-r from-border_light to-transparent" />
               )}
 
-              <div className="bg-bg_primary rounded-lg p-6 border border-border_light">
+              <div className="card p-6 hover:shadow-card-hover group">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 bg-phone rounded-full flex items-center justify-center text-white font-bold text-lg">
                     {step.number}
