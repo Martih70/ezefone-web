@@ -73,7 +73,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="text-center text-gray-400">
-            <p>&copy; 2024 EzeFone. All rights reserved.</p>
+            <p>&copy; 2026 EzeFone. All rights reserved.</p>
           </div>
         </div>
       </div>
