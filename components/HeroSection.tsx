@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="bg-bg_primary py-16 md:py-24">
+    <section className="bg-gradient-to-br from-bg_primary to-blue-50 py-16 md:py-28">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left: Text */}
@@ -18,7 +18,7 @@ export default function HeroSection() {
               screen, four buttons, total simplicity.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <a
                 href="https://play.google.com/store/apps/details?id=com.ezefone.app"
                 target="_blank"
@@ -29,7 +29,7 @@ export default function HeroSection() {
               </a>
               <button
                 disabled
-                className="px-8 py-3 bg-gray-300 text-gray-600 text-lg font-semibold rounded-lg cursor-not-allowed text-center transition-all"
+                className="px-8 py-4 bg-gray-200 text-gray-600 text-lg font-semibold rounded-xl cursor-not-allowed text-center transition-all border border-gray-300"
               >
                 App Store Coming Soon
               </button>

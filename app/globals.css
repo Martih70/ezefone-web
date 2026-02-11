@@ -18,11 +18,11 @@ body {
 
 /* Heading styles for accessibility and consistency */
 h1 {
-  @apply text-4xl md:text-5xl font-bold text-text_primary;
+  @apply text-4xl md:text-5xl font-bold text-text_primary tracking-tight;
 }
 
 h2 {
-  @apply text-3xl md:text-4xl font-bold text-text_primary;
+  @apply text-3xl md:text-4xl font-bold text-text_primary tracking-tight;
 }
 
 h3 {
@@ -31,21 +31,25 @@ h3 {
 
 /* Button base styles */
 button {
-  @apply transition-all duration-200;
+  @apply transition-all duration-300;
 }
 
 /* Primary buttons */
 .btn-primary {
-  @apply px-8 py-3 bg-phone text-white font-semibold rounded-lg hover:bg-emerald-700 shadow-button hover:shadow-card transition-all;
+  @apply px-8 py-4 bg-phone text-white font-bold rounded-xl hover:bg-emerald-700 shadow-lg hover:shadow-2xl transition-all transform hover:scale-105;
 }
 
 .btn-primary:disabled {
-  @apply bg-gray-300 text-gray-600 cursor-not-allowed shadow-none hover:shadow-none;
+  @apply bg-gray-300 text-gray-600 cursor-not-allowed shadow-none hover:shadow-none hover:scale-100;
 }
 
 /* Card styles */
 .card {
-  @apply bg-white rounded-lg border border-border_light shadow-card hover:shadow-card-hover transition-shadow;
+  @apply bg-white rounded-xl border border-border_light shadow-xl hover:shadow-2xl transition-all duration-300;
+}
+
+.card:hover {
+  @apply -translate-y-1;
 }
 
 /* Links */

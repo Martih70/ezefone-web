@@ -2,7 +2,7 @@ export default function PricingSection() {
   return (
     <section
       id="pricing"
-      className="bg-white py-16 md:py-24 border-t border-border_light"
+      className="bg-gradient-to-b from-white to-green-50 py-16 md:py-28 border-t-2 border-border_light"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
@@ -14,42 +14,43 @@ export default function PricingSection() {
           </p>
         </div>
 
-        <div className="card border-2 border-phone p-8 md:p-12 max-w-md mx-auto shadow-card hover:shadow-card-hover transition-all">
-          <div className="text-center mb-8">
-            <p className="text-sm text-text_secondary mb-2 font-semibold">One-time purchase</p>
-            <p className="text-6xl font-bold text-phone">£2.99</p>
+        <div className="card border-3 border-phone p-10 md:p-14 max-w-lg mx-auto shadow-2xl hover:shadow-2xl transition-all transform hover:scale-105 duration-300 bg-gradient-to-b from-white to-green-50">
+          <div className="text-center mb-10">
+            <p className="text-base text-phone mb-2 font-bold uppercase tracking-wide">One-time purchase</p>
+            <p className="text-7xl font-bold text-phone">£2.99</p>
+            <p className="text-sm text-text_secondary mt-2">No recurring charges ever</p>
           </div>
 
-          <div className="space-y-4 mb-8">
-            <div className="flex items-start gap-3">
-              <span className="text-phone text-xl font-bold flex-shrink-0">
+          <div className="space-y-5 mb-10">
+            <div className="flex items-center gap-4">
+              <span className="text-phone text-3xl font-bold flex-shrink-0">
                 ✓
               </span>
-              <p className="text-text_primary">No subscriptions</p>
+              <p className="text-lg text-text_primary font-semibold">No subscriptions</p>
             </div>
-            <div className="flex items-start gap-3">
-              <span className="text-phone text-xl font-bold flex-shrink-0">
+            <div className="flex items-center gap-4">
+              <span className="text-phone text-3xl font-bold flex-shrink-0">
                 ✓
               </span>
-              <p className="text-text_primary">No hidden fees</p>
+              <p className="text-lg text-text_primary font-semibold">No hidden fees</p>
             </div>
-            <div className="flex items-start gap-3">
-              <span className="text-phone text-xl font-bold flex-shrink-0">
+            <div className="flex items-center gap-4">
+              <span className="text-phone text-3xl font-bold flex-shrink-0">
                 ✓
               </span>
-              <p className="text-text_primary">Free updates forever</p>
+              <p className="text-lg text-text_primary font-semibold">Free updates forever</p>
             </div>
-            <div className="flex items-start gap-3">
-              <span className="text-phone text-xl font-bold flex-shrink-0">
+            <div className="flex items-center gap-4">
+              <span className="text-phone text-3xl font-bold flex-shrink-0">
                 ✓
               </span>
-              <p className="text-text_primary">Works on all Android phones</p>
+              <p className="text-lg text-text_primary font-semibold">Works on all Android phones</p>
             </div>
-            <div className="flex items-start gap-3">
-              <span className="text-text_secondary text-xl font-bold flex-shrink-0">
+            <div className="flex items-center gap-4">
+              <span className="text-text_secondary text-3xl font-bold flex-shrink-0">
                 ◎
               </span>
-              <p className="text-text_secondary">iOS coming soon</p>
+              <p className="text-lg text-text_secondary">iOS coming soon</p>
             </div>
           </div>
 

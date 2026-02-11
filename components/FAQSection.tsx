@@ -33,7 +33,7 @@ export default function FAQSection() {
   ];
 
   return (
-    <section className="bg-bg_primary py-16 md:py-24 border-t border-border_light">
+    <section className="bg-gradient-to-br from-bg_primary to-indigo-50 py-16 md:py-28 border-t-2 border-border_light">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-text_primary mb-4">Questions? We've got answers</h2>
