@@ -20,10 +20,13 @@ export default function PrivacyPolicy() {
         <div className="prose prose-lg max-w-none space-y-8">
           {/* Intro */}
           <section>
-            <p className="text-lg text-text_secondary leading-relaxed">
+            <p className="text-lg text-text_secondary leading-relaxed mb-4">
               At EzeFone, we believe in simplicity. That includes being simple
               and honest about how we handle your information. This policy
               explains what data we collect, why, and how we protect it.
+            </p>
+            <p className="text-base text-text_secondary italic">
+              EzeFone is created in the UK by CallformLabs.
             </p>
           </section>
 
@@ -268,15 +271,20 @@ export default function PrivacyPolicy() {
               If you have any questions about our privacy practices or want to
               exercise your rights, get in touch:
             </p>
-            <a
-              href="mailto:support@ezefone.app"
-              className="text-xl font-bold text-phone hover:text-emerald-700 transition-colors"
-            >
-              support@ezefone.app
-            </a>
-            <p className="text-sm text-text_secondary mt-4">
-              We'll respond within 7 days.
-            </p>
+            <div className="space-y-4">
+              <div>
+                <p className="text-sm text-text_secondary mb-1">Email:</p>
+                <a
+                  href="mailto:info@callform.co.uk"
+                  className="text-xl font-bold text-phone hover:text-emerald-700 transition-colors"
+                >
+                  info@callform.co.uk
+                </a>
+              </div>
+              <p className="text-sm text-text_secondary">
+                We'll respond within 7 days.
+              </p>
+            </div>
           </section>
 
           {/* Last Updated */}

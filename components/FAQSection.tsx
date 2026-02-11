@@ -23,7 +23,7 @@ export default function FAQSection() {
     {
       question: "What if I need help?",
       answer:
-        "We're here to help! You can contact us anytime at support@ezefone.app or through the Google Play Store.",
+        "We're here to help! You can contact us anytime at info@callform.co.uk or through the Google Play Store.",
     },
     {
       question: "Can I add my own contacts?",

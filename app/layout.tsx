@@ -7,6 +7,8 @@ export const metadata: Metadata = {
     "EzeFone strips away the complexity of modern smartphones. One screen, four buttons, total simplicity. Download on Google Play.",
   keywords:
     "simple phone app, elderly, seniors, easy calling, large buttons, accessible",
+  authors: [{ name: "CallformLabs", url: "https://callform.co.uk" }],
+  creator: "CallformLabs",
   openGraph: {
     title: "EzeFone - Simple calling for the people you love",
     description:
