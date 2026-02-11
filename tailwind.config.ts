@@ -17,8 +17,8 @@ const config: Config = {
         contacts: "#b45309",
         whatsapp: "#0d9488",
         accent: "#f59e0b",
-        dark_gray: "#1f2937",
-        dark_gray_light: "#374151",
+        dark_gray: "#475569",
+        dark_gray_light: "#64748b",
       },
       fontFamily: {
         sans: [
