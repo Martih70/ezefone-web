@@ -44,7 +44,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="/privacy"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Privacy Policy
