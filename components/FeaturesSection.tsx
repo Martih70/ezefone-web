@@ -25,7 +25,7 @@ export default function FeaturesSection() {
       title: "WhatsApp included",
       color: "bg-whatsapp",
       description:
-        "WhatsApp built right in. Video calls, voice notes, messages - all in one place.",
+        "WhatsApp accessed directly in the app. Video calls, phone calls and messages - all in one place.",
     },
   ];
 
