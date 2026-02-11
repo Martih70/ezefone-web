@@ -1,12 +1,10 @@
-import Link from "next/link";
-
 export default function PrivacyPolicy() {
   return (
     <main className="min-h-screen bg-bg_primary">
       {/* Header */}
       <div className="bg-gradient-to-br from-bg_primary to-blue-50 py-12 border-b-2 border-border_light">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-text_primary mb-4">
+          <h1 className="text-5xl font-bold text-text_primary mb-4">
             Privacy Policy
           </h1>
           <p className="text-xl text-text_secondary">
@@ -17,7 +15,7 @@ export default function PrivacyPolicy() {
 
       {/* Content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="prose prose-lg max-w-none space-y-8">
+        <div className="space-y-8">
           {/* Intro */}
           <section>
             <p className="text-lg text-text_secondary leading-relaxed mb-4">
@@ -52,8 +50,7 @@ export default function PrivacyPolicy() {
                 </h3>
                 <p className="leading-relaxed">
                   We collect basic information about how you use EzeFone
-                  (e.g., which features you use) to help us improve the app.
-                  This is anonymous and helps us understand what works well.
+                  to help us improve the app. This is anonymous.
                 </p>
               </div>
               <div>
@@ -79,7 +76,7 @@ export default function PrivacyPolicy() {
                   ✓
                 </span>
                 <p className="text-lg">
-                  <strong>No call recordings</strong> - We don't record your calls
+                  No call recordings
                 </p>
               </div>
               <div className="flex items-start gap-3">
@@ -87,8 +84,7 @@ export default function PrivacyPolicy() {
                   ✓
                 </span>
                 <p className="text-lg">
-                  <strong>No location tracking</strong> - We don't track where
-                  you are
+                  No location tracking
                 </p>
               </div>
               <div className="flex items-start gap-3">
@@ -96,8 +92,7 @@ export default function PrivacyPolicy() {
                   ✓
                 </span>
                 <p className="text-lg">
-                  <strong>No personal data selling</strong> - We never sell your
-                  information
+                  No personal data selling
                 </p>
               </div>
               <div className="flex items-start gap-3">
@@ -105,8 +100,7 @@ export default function PrivacyPolicy() {
                   ✓
                 </span>
                 <p className="text-lg">
-                  <strong>No ads or tracking</strong> - EzeFone is simple. No
-                  targeted ads, no tracking pixels
+                  No ads or tracking
                 </p>
               </div>
             </div>
@@ -135,7 +129,7 @@ export default function PrivacyPolicy() {
                     •
                   </span>
                   <span className="text-lg">
-                    Your contacts stay on your phone and are never sent to us
+                    Your contacts stay on your phone
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -144,15 +138,6 @@ export default function PrivacyPolicy() {
                   </span>
                   <span className="text-lg">
                     We only keep data for as long as needed
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-phone font-bold text-lg flex-shrink-0">
-                    •
-                  </span>
-                  <span className="text-lg">
-                    We don't share data with third parties (except where legally
-                    required)
                   </span>
                 </li>
               </ul>
@@ -193,73 +178,8 @@ export default function PrivacyPolicy() {
                     Opt out of usage analytics
                   </span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-contacts font-bold text-lg flex-shrink-0">
-                    •
-                  </span>
-                  <span className="text-lg">
-                    Contact us with privacy questions
-                  </span>
-                </li>
               </ul>
             </div>
-          </section>
-
-          {/* Third-Party Services */}
-          <section className="card p-8">
-            <h2 className="text-3xl font-bold text-text_primary mb-4">
-              Third-Party Services
-            </h2>
-            <div className="space-y-4 text-text_secondary">
-              <p className="text-lg leading-relaxed">
-                EzeFone uses a few third-party services:
-              </p>
-              <div className="space-y-3">
-                <div>
-                  <h3 className="text-lg font-bold text-text_primary mb-1">
-                    WhatsApp
-                  </h3>
-                  <p className="text-lg">
-                    When you use WhatsApp through EzeFone, you're using Meta's
-                    WhatsApp. Messages go through WhatsApp's servers. Read
-                    their privacy policy for details.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-bold text-text_primary mb-1">
-                    Analytics
-                  </h3>
-                  <p className="text-lg">
-                    We use basic analytics to understand app usage. This is
-                    anonymous and doesn't track individual users.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Children */}
-          <section className="card p-8 bg-gradient-to-b from-white to-blue-50">
-            <h2 className="text-3xl font-bold text-messages mb-4">
-              Children's Privacy
-            </h2>
-            <p className="text-lg text-text_secondary leading-relaxed">
-              EzeFone is designed for adults and older adults. We don't knowingly
-              collect data from children under 13. If we discover this has
-              happened, we'll delete that data immediately.
-            </p>
-          </section>
-
-          {/* Changes to Policy */}
-          <section className="card p-8">
-            <h2 className="text-3xl font-bold text-text_primary mb-4">
-              Changes to This Policy
-            </h2>
-            <p className="text-lg text-text_secondary leading-relaxed">
-              If we change this privacy policy, we'll update it here and notify
-              you in the app. We'll only make changes that improve your privacy,
-              never weaken it.
-            </p>
           </section>
 
           {/* Contact Us */}
@@ -268,8 +188,7 @@ export default function PrivacyPolicy() {
               Questions? Contact Us
             </h2>
             <p className="text-lg text-text_secondary mb-4 leading-relaxed">
-              If you have any questions about our privacy practices or want to
-              exercise your rights, get in touch:
+              If you have questions about our privacy practices, get in touch:
             </p>
             <div className="space-y-4">
               <div>
@@ -287,24 +206,23 @@ export default function PrivacyPolicy() {
             </div>
           </section>
 
-          {/* Last Updated */}
+          {/* Footer */}
           <div className="text-center text-text_secondary mt-12 pt-8 border-t-2 border-border_light">
             <p className="text-base">Last updated: February 2026</p>
             <p className="text-sm mt-2">
-              This policy is simple by design. We believe privacy should be easy
-              to understand.
+              This policy is simple by design.
             </p>
           </div>
-        </div>
 
-        {/* Back Button */}
-        <div className="mt-12 text-center">
-          <Link
-            href="/"
-            className="inline-block px-8 py-4 bg-phone text-white font-bold rounded-xl hover:bg-emerald-700 shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
-          >
-            Back to Home
-          </Link>
+          {/* Back Button */}
+          <div className="mt-12 text-center">
+            <a
+              href="/"
+              className="inline-block px-8 py-4 bg-phone text-white font-bold rounded-xl hover:bg-emerald-700 shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+            >
+              Back to Home
+            </a>
+          </div>
         </div>
       </div>
     </main>
