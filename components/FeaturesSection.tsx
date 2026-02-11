@@ -11,7 +11,7 @@ export default function FeaturesSection() {
       icon: "💬",
       title: "Easy messaging",
       color: "bg-messages",
-      description: "Send and receive messages simply. Just type and send.",
+      description: "Send messages simply. Just type and send.",
     },
     {
       icon: "👥",
