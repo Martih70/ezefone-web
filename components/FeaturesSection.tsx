@@ -25,7 +25,7 @@ export default function FeaturesSection() {
       title: "WhatsApp included",
       color: "bg-whatsapp",
       description:
-        "WhatsApp accessed directly in the app. Video calls, phone calls and messages - all in one place.",
+        "Accessed directly in the app. Video/phone calls, messages - all in one place.",
     },
   ];
 
