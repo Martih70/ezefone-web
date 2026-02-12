@@ -1,4 +1,8 @@
-export default function HeroSection() {
+interface HeroSectionProps {
+  onDownloadClick?: () => void;
+}
+
+export default function HeroSection({ onDownloadClick }: HeroSectionProps) {
   return (
     <section className="bg-gradient-to-br from-bg_primary to-blue-50 py-16 md:py-28">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,6 +28,7 @@ export default function HeroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-center text-lg"
+                onClick={onDownloadClick}
               >
                 Download on Google Play
               </a>

@@ -1,4 +1,8 @@
-export default function PricingSection() {
+interface PricingSectionProps {
+  onDownloadClick?: () => void;
+}
+
+export default function PricingSection({ onDownloadClick }: PricingSectionProps) {
   return (
     <section
       id="pricing"
@@ -59,6 +63,7 @@ export default function PricingSection() {
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary w-full block text-center text-lg"
+            onClick={onDownloadClick}
           >
             Download on Google Play
           </a>

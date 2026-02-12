@@ -2,12 +2,17 @@
 
 import { useState } from "react";
 
-export default function Navbar() {
+interface NavbarProps {
+  onDownloadClick?: () => void;
+}
+
+export default function Navbar({ onDownloadClick }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const scrollToDownload = () => {
     const element = document.getElementById("pricing");
     element?.scrollIntoView({ behavior: "smooth" });
+    onDownloadClick?.();
   };
 
   return (
