@@ -1,31 +1,8 @@
-import Stripe from "stripe";
+"use client";
+
 import Link from "next/link";
 
-export const dynamic = "force-dynamic";
-
-export default async function DownloadPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ session_id?: string }>;
-}) {
-  const { session_id } = await searchParams;
-
-  if (!session_id) {
-    return <InvalidSession />;
-  }
-
-  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
-  let customerEmail = "";
-  try {
-    const session = await stripe.checkout.sessions.retrieve(session_id);
-    if (session.payment_status !== "paid") {
-      return <InvalidSession />;
-    }
-    customerEmail = session.customer_details?.email || "";
-  } catch {
-    return <InvalidSession />;
-  }
-
+export default function DownloadPage() {
   return (
     <main
       style={{ backgroundColor: "#fefdf8", minHeight: "100vh" }}
@@ -57,18 +34,13 @@ export default async function DownloadPage({
         >
           Payment confirmed!
         </h1>
-        <p className="text-lg mb-2" style={{ color: "#64748b" }}>
-          Thank you for purchasing EzeFone.
+        <p className="text-lg mb-8" style={{ color: "#64748b" }}>
+          Thank you for purchasing EzeFone. Tap the button below to download.
         </p>
-        {customerEmail && (
-          <p className="text-sm mb-8" style={{ color: "#94a3b8" }}>
-            A receipt has been sent to {customerEmail}
-          </p>
-        )}
 
         {/* Download button */}
         <a
-          href={`/api/download?session_id=${session_id}`}
+          href="/ezefone.apk"
           className="inline-flex items-center gap-3 px-8 py-4 rounded-2xl font-bold text-white text-lg mb-6 transition-all"
           style={{
             backgroundColor: "#059669",
@@ -145,56 +117,6 @@ export default async function DownloadPage({
           style={{ color: "#94a3b8", textDecoration: "none" }}
         >
           ← Back to home
-        </Link>
-      </div>
-    </main>
-  );
-}
-
-function InvalidSession() {
-  return (
-    <main
-      style={{ backgroundColor: "#fefdf8", minHeight: "100vh" }}
-      className="flex flex-col items-center justify-center px-6 py-16"
-    >
-      <div className="max-w-lg w-full text-center">
-        <div
-          className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6"
-          style={{ backgroundColor: "#fee2e2" }}
-        >
-          <svg
-            width="40"
-            height="40"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#dc2626"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <line x1="18" y1="6" x2="6" y2="18" />
-            <line x1="6" y1="6" x2="18" y2="18" />
-          </svg>
-        </div>
-        <h1
-          className="font-bold mb-3"
-          style={{ color: "#0f172a", fontSize: "2rem" }}
-        >
-          Download link invalid
-        </h1>
-        <p className="text-lg mb-8" style={{ color: "#64748b" }}>
-          This download link is not valid or has expired.
-        </p>
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl font-bold text-white text-lg"
-          style={{
-            backgroundColor: "#059669",
-            boxShadow: "0 6px 20px rgba(5, 150, 105, 0.35)",
-            textDecoration: "none",
-          }}
-        >
-          ← Back to EzeFone
         </Link>
       </div>
     </main>

@@ -11,14 +11,10 @@ import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  const handleDownloadClick = async () => {
-    try {
-      const res = await fetch("/api/create-checkout", { method: "POST" });
-      const { url } = await res.json();
-      window.location.href = url;
-    } catch {
-      alert("Something went wrong. Please try again.");
-    }
+  const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/bJecN5gyu9Be9Wx2aL57W00";
+
+  const handleDownloadClick = () => {
+    window.location.href = STRIPE_PAYMENT_LINK;
   };
 
   return (
