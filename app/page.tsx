@@ -11,8 +11,14 @@ import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  const handleDownloadClick = () => {
-    window.location.href = '/ezefone.apk';
+  const handleDownloadClick = async () => {
+    try {
+      const res = await fetch("/api/create-checkout", { method: "POST" });
+      const { url } = await res.json();
+      window.location.href = url;
+    } catch {
+      alert("Something went wrong. Please try again.");
+    }
   };
 
   return (
