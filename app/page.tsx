@@ -11,21 +11,15 @@ import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/bJecN5gyu9Be9Wx2aL57W00";
-
-  const handleDownloadClick = () => {
-    window.location.href = STRIPE_PAYMENT_LINK;
-  };
-
   return (
     <main>
-      <Navbar onDownloadClick={handleDownloadClick} />
-      <HeroSection onDownloadClick={handleDownloadClick} />
+      <Navbar />
+      <HeroSection />
       <ComparisonSection />
       <FeaturesSection />
       <HowItWorksSection />
       <TestimonialsSection />
-      <PricingSection onDownloadClick={handleDownloadClick} />
+      <PricingSection />
       <FAQSection />
       <Footer />
     </main>
