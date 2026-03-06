@@ -9,12 +9,6 @@ interface NavbarProps {
 export default function Navbar({ onDownloadClick }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const scrollToDownload = () => {
-    const element = document.getElementById("pricing");
-    element?.scrollIntoView({ behavior: "smooth" });
-    onDownloadClick?.();
-  };
-
   return (
     <nav className="sticky top-0 z-50 bg-bg_primary border-b-2 border-border_light shadow-xl">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
