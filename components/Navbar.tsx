@@ -30,12 +30,12 @@ export default function Navbar({ onDownloadClick }: NavbarProps) {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8">
-            <button
-              onClick={scrollToDownload}
+            <a
+              href="https://ezefone.co.uk"
               className="btn-primary"
             >
-              Download
-            </button>
+              Open App
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -63,12 +63,12 @@ export default function Navbar({ onDownloadClick }: NavbarProps) {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden pb-4">
-            <button
-              onClick={scrollToDownload}
-              className="btn-primary w-full text-left"
+            <a
+              href="https://ezefone.co.uk"
+              className="btn-primary w-full block text-left"
             >
-              Download
-            </button>
+              Open App
+            </a>
           </div>
         )}
       </div>

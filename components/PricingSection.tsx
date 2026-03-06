@@ -48,24 +48,22 @@ export default function PricingSection({ onDownloadClick }: PricingSectionProps)
               <span className="text-phone text-3xl font-bold flex-shrink-0">
                 ✓
               </span>
-              <p className="text-lg text-text_primary font-semibold">Works on all Android phones</p>
+              <p className="text-lg text-text_primary font-semibold">Works on any phone or tablet</p>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-text_secondary text-3xl font-bold flex-shrink-0">
-                ◎
+              <span className="text-phone text-3xl font-bold flex-shrink-0">
+                ✓
               </span>
-              <p className="text-lg text-text_secondary">iOS coming soon</p>
+              <p className="text-lg text-text_primary font-semibold">Android &amp; iPhone supported</p>
             </div>
           </div>
 
           <a
-            href="https://play.google.com/store/apps/details?id=com.ezefone.app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://ezefone.co.uk"
             className="btn-primary w-full block text-center text-lg"
             onClick={onDownloadClick}
           >
-            Download on Google Play
+            Open Ezefone Free
           </a>
         </div>
       </div>

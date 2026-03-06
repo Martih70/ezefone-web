@@ -24,20 +24,12 @@ export default function HeroSection({ onDownloadClick }: HeroSectionProps) {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <a
-                href="https://play.google.com/store/apps/details?id=com.ezefone.app"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://ezefone.co.uk"
                 className="btn-primary text-center text-lg"
                 onClick={onDownloadClick}
               >
-                Download on Google Play
+                Open Ezefone Free
               </a>
-              <button
-                disabled
-                className="px-8 py-4 bg-gray-200 text-gray-600 text-lg font-semibold rounded-xl cursor-not-allowed text-center transition-all border border-gray-300"
-              >
-                App Store Coming Soon
-              </button>
             </div>
           </div>
 
