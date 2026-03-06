@@ -59,7 +59,7 @@ export default function PricingSection({ onDownloadClick }: PricingSectionProps)
           </div>
 
           <a
-            href="https://ezefone.co.uk"
+            href="https://ezefone-backend-c8eadiyp.on-forge.com"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary w-full block text-center text-lg"

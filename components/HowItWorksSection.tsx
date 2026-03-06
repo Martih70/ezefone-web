@@ -3,7 +3,7 @@ export default function HowItWorksSection() {
     {
       number: "1",
       title: "Open Ezefone",
-      description: "Visit ezefone.co.uk on your phone — no app store needed. Tap 'Add to Home Screen' for instant access.",
+      description: "Visit ezefone-backend-c8eadiyp.on-forge.com on your phone — no app store needed. Tap 'Add to Home Screen' for instant access.",
       icon: "🌐",
     },
     {
