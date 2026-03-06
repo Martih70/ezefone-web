@@ -6,7 +6,7 @@ interface NavbarProps {
   onDownloadClick?: () => void;
 }
 
-export default function Navbar({ onDownloadClick }: NavbarProps) {
+export default function Navbar(_props: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
