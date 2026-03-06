@@ -35,7 +35,7 @@ export default function HowItWorksSection() {
         <div className="text-center mb-12">
           <h2 className="text-text_primary mb-4">Up and running in minutes</h2>
           <p className="text-lg text-text_secondary">
-            Getting started with EzeFone is simple
+            Getting started with Ezefone is simple
           </p>
         </div>
 

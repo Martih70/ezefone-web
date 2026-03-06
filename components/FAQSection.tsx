@@ -7,18 +7,18 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Do I need to be tech-savvy to use EzeFone?",
+      question: "Do I need to be tech-savvy to use Ezefone?",
       answer:
-        "Not at all. If you can tap a button, you can use EzeFone. The whole design is centered around simplicity and ease of use.",
+        "Not at all. If you can tap a button, you can use Ezefone. The whole design is centered around simplicity and ease of use.",
     },
     {
       question: "Will it replace my regular phone app?",
       answer:
-        "EzeFone works alongside your existing phone. It's a simpler way to access calling, messaging, and WhatsApp. You can use both apps as you prefer.",
+        "Ezefone works alongside your existing phone. It's a simpler way to access calling, messaging, and WhatsApp. You can use both apps as you prefer.",
     },
     {
       question: "Is it available on iPhone?",
-      answer: "Currently EzeFone is available on Android only. iOS is coming soon!",
+      answer: "Currently Ezefone is available on Android only. iOS is coming soon!",
     },
     {
       question: "What if I need help?",
@@ -28,7 +28,7 @@ export default function FAQSection() {
     {
       question: "Can I add my own contacts?",
       answer:
-        "Yes! EzeFone reads your existing contacts and lets you add new ones easily. You have full control over who's in your contact list.",
+        "Yes! Ezefone reads your existing contacts and lets you add new ones easily. You have full control over who's in your contact list.",
     },
   ];
 
@@ -38,7 +38,7 @@ export default function FAQSection() {
         <div className="text-center mb-12">
           <h2 className="text-text_primary mb-4">Questions? We've got answers</h2>
           <p className="text-lg text-text_secondary">
-            Find answers to common questions about EzeFone
+            Find answers to common questions about Ezefone
           </p>
         </div>
 

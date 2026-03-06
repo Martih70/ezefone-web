@@ -15,11 +15,8 @@ export default function Navbar(_props: NavbarProps) {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-12 h-12 bg-phone rounded-xl flex items-center justify-center text-white text-2xl font-bold relative shadow-lg group-hover:shadow-2xl transition-all duration-300 transform group-hover:scale-110">
-              E
-              <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-accent rounded-full shadow-lg border-2 border-white"></div>
-            </div>
-            <span className="text-2xl font-bold text-text_primary">EzeFone</span>
+            <img src="/favicon-48x48.png" alt="Ezefone" className="w-12 h-12 rounded-xl shadow-lg group-hover:shadow-2xl transition-all duration-300 transform group-hover:scale-110" />
+            <span className="text-2xl font-bold text-text_primary">Ezefone</span>
           </a>
 
           {/* Desktop Navigation */}

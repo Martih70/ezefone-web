@@ -18,7 +18,7 @@ export default function HeroSection({ onDownloadClick }: HeroSectionProps) {
             </p>
 
             <p className="text-lg text-text_secondary leading-relaxed">
-              EzeFone strips away the complexity of modern smartphones. One
+              Ezefone strips away the complexity of modern smartphones. One
               screen, four buttons, total simplicity.
             </p>
 

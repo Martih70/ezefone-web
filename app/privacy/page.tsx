@@ -19,12 +19,12 @@ export default function PrivacyPolicy() {
           {/* Intro */}
           <section>
             <p className="text-lg text-text_secondary leading-relaxed mb-4">
-              At EzeFone, we believe in simplicity. That includes being simple
+              At Ezefone, we believe in simplicity. That includes being simple
               and honest about how we handle your information. This policy
               explains what data we collect, why, and how we protect it.
             </p>
             <p className="text-base text-text_secondary italic">
-              EzeFone is created in the UK by CallformLabs.
+              Ezefone is created in the UK by CallformLabs.
             </p>
           </section>
 
@@ -39,7 +39,7 @@ export default function PrivacyPolicy() {
                   Your Contacts
                 </h3>
                 <p className="leading-relaxed">
-                  EzeFone reads your phone's existing contacts so you can call
+                  Ezefone reads your phone's existing contacts so you can call
                   and message them easily. We don't send this data anywhere. It
                   stays on your phone.
                 </p>
@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
                   Basic Usage Data
                 </h3>
                 <p className="leading-relaxed">
-                  We collect basic information about how you use EzeFone
+                  We collect basic information about how you use Ezefone
                   to help us improve the app. This is anonymous.
                 </p>
               </div>
@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
                 </h3>
                 <p className="leading-relaxed">
                   If the app crashes, we collect error information so we can
-                  fix bugs. This helps us make EzeFone more reliable.
+                  fix bugs. This helps us make Ezefone more reliable.
                 </p>
               </div>
             </div>

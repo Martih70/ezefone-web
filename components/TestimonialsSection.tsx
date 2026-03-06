@@ -10,7 +10,7 @@ export default function TestimonialsSection() {
     {
       name: "David",
       age: null,
-      title: "Son of an EzeFone user",
+      title: "Son of an Ezefone user",
       quote:
         "I set it up for my mum in 5 minutes. She's been using it independently ever since. Best thing I've done.",
       rating: 5,
@@ -19,7 +19,7 @@ export default function TestimonialsSection() {
       name: "Patricia",
       age: 81,
       quote:
-        "I was scared of smartphones. EzeFone is different. Big buttons, clear screen - I love it.",
+        "I was scared of smartphones. Ezefone is different. Big buttons, clear screen - I love it.",
       rating: 5,
     },
   ];

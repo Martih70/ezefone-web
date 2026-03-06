@@ -6,10 +6,8 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-phone rounded-lg flex items-center justify-center text-white text-xl font-bold">
-                E
-              </div>
-              <span className="text-2xl font-bold">EzeFone</span>
+              <img src="/favicon-48x48.png" alt="Ezefone" className="w-10 h-10 rounded-lg" />
+              <span className="text-2xl font-bold">Ezefone</span>
             </div>
             <p className="text-gray-400">
               Everything you need, nothing you don't.
@@ -73,7 +71,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="text-center text-gray-400">
-            <p>&copy; 2026 EzeFone. All rights reserved.</p>
+            <p>&copy; 2026 Ezefone. All rights reserved.</p>
           </div>
         </div>
       </div>
