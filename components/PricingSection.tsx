@@ -60,6 +60,8 @@ export default function PricingSection({ onDownloadClick }: PricingSectionProps)
 
           <a
             href="https://ezefone.co.uk"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary w-full block text-center text-lg"
             onClick={onDownloadClick}
           >

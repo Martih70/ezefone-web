@@ -2,29 +2,29 @@ export default function HowItWorksSection() {
   const steps = [
     {
       number: "1",
-      title: "Download EzeFone",
-      description: "Download EzeFone from the Google Play Store.",
-      icon: "📲",
+      title: "Open Ezefone",
+      description: "Visit ezefone.co.uk on your phone — no app store needed. Tap 'Add to Home Screen' for instant access.",
+      icon: "🌐",
     },
     {
       number: "2",
       title: "Add your contacts",
       description:
-        "Your contacts can be added singly or in multiples directly from phone contacts.",
+        "Import straight from your phone's address book, or add contacts one by one.",
       icon: "📇",
     },
     {
       number: "3",
-      title: "Find who you want to reach",
+      title: "Set your favourites",
       description:
-        "Tap a favourite contact, or browse all contacts to find who you want.",
-      icon: "🔍",
+        "Star up to four people — they appear as big, easy-tap cards on your home screen.",
+      icon: "⭐",
     },
     {
       number: "4",
-      title: "Call, message, or WhatsApp",
+      title: "Call or WhatsApp",
       description:
-        "Choose to Call, Message, or WhatsApp them. Done! It's that easy.",
+        "Tap a card to call instantly, or use the ··· button to open WhatsApp. That's it!",
       icon: "✅",
     },
   ];

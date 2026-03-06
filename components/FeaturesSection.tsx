@@ -8,12 +8,6 @@ export default function FeaturesSection() {
         "Call anyone in your contacts with a single tap. No dialling, no confusion.",
     },
     {
-      icon: "💬",
-      title: "Easy messaging",
-      color: "bg-messages",
-      description: "Send messages simply. Just type and send.",
-    },
-    {
       icon: "👥",
       title: "Your contacts",
       color: "bg-contacts",

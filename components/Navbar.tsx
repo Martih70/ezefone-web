@@ -26,6 +26,8 @@ export default function Navbar(_props: NavbarProps) {
           <div className="hidden md:flex gap-8">
             <a
               href="https://ezefone.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary"
             >
               Open App
@@ -59,6 +61,8 @@ export default function Navbar(_props: NavbarProps) {
           <div className="md:hidden pb-4">
             <a
               href="https://ezefone.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary w-full block text-left"
             >
               Open App
