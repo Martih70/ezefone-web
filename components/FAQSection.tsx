@@ -17,13 +17,9 @@ export default function FAQSection() {
         "Ezefone works alongside your existing phone. It's a simpler way to access calling, messaging, and WhatsApp. You can use both apps as you prefer.",
     },
     {
-      question: "Is it available on iPhone?",
-      answer: "Currently Ezefone is available on Android only. iOS is coming soon!",
-    },
-    {
       question: "What if I need help?",
       answer:
-        "We're here to help! You can contact us anytime at info@callform.co.uk or through the Google Play Store.",
+        "We're here to help! You can contact us at anytime at info@ezefone.co.uk",
     },
     {
       question: "Can I add my own contacts?",
