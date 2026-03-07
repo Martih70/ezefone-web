@@ -2,8 +2,8 @@ export default function HowItWorksSection() {
   const steps = [
     {
       number: "1",
-      title: "Open Ezefone",
-      description: "Visit ezefone-backend-c8eadiyp.on-forge.com on your phone — no app store needed. Tap 'Add to Home Screen' for instant access.",
+      title: "Get Ezefone",
+      description: "Pay once for £2.99 — no subscription, no app store. Tap 'Add to Home Screen' and it works just like a normal app.",
       icon: "🌐",
     },
     {

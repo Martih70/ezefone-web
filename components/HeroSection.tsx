@@ -24,13 +24,13 @@ export default function HeroSection({ onDownloadClick }: HeroSectionProps) {
 
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <a
-                href="https://ezefone-backend-c8eadiyp.on-forge.com"
+                href="https://ezefone-backend-c8eadiyp.on-forge.com/checkout"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-center text-lg"
                 onClick={onDownloadClick}
               >
-                Open Ezefone Free
+                Get Ezefone — £2.99
               </a>
             </div>
           </div>

@@ -59,13 +59,13 @@ export default function PricingSection({ onDownloadClick }: PricingSectionProps)
           </div>
 
           <a
-            href="https://ezefone-backend-c8eadiyp.on-forge.com"
+            href="https://ezefone-backend-c8eadiyp.on-forge.com/checkout"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary w-full block text-center text-lg"
             onClick={onDownloadClick}
           >
-            Open Ezefone Free
+            Get Ezefone — £2.99
           </a>
         </div>
       </div>

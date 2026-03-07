@@ -22,12 +22,12 @@ export default function Navbar(_props: NavbarProps) {
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8">
             <a
-              href="https://ezefone-backend-c8eadiyp.on-forge.com"
+              href="https://ezefone-backend-c8eadiyp.on-forge.com/checkout"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Open App
+              Get Ezefone — £2.99
             </a>
           </div>
 
@@ -57,12 +57,12 @@ export default function Navbar(_props: NavbarProps) {
         {isOpen && (
           <div className="md:hidden pb-4">
             <a
-              href="https://ezefone-backend-c8eadiyp.on-forge.com"
+              href="https://ezefone-backend-c8eadiyp.on-forge.com/checkout"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary w-full block text-left"
             >
-              Open App
+              Get Ezefone — £2.99
             </a>
           </div>
         )}
