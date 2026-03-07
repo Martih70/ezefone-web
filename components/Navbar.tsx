@@ -20,7 +20,15 @@ export default function Navbar(_props: NavbarProps) {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex gap-8">
+          <div className="hidden md:flex items-center gap-4">
+            <a
+              href="https://ezefone-backend-c8eadiyp.on-forge.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-text_secondary hover:text-phone transition-colors font-semibold"
+            >
+              Sign in
+            </a>
             <a
               href="https://ezefone-backend-c8eadiyp.on-forge.com/checkout"
               target="_blank"
@@ -55,7 +63,15 @@ export default function Navbar(_props: NavbarProps) {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden pb-4">
+          <div className="md:hidden pb-4 flex flex-col gap-3">
+            <a
+              href="https://ezefone-backend-c8eadiyp.on-forge.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-text_secondary font-semibold text-center py-2"
+            >
+              Sign in
+            </a>
             <a
               href="https://ezefone-backend-c8eadiyp.on-forge.com/checkout"
               target="_blank"
