@@ -111,7 +111,7 @@ export default function TestimonialsSection() {
 
             <p>I hope, also, you enjoyed my little true-life adventure. My whole purpose with this app, something I never dreamed of at my age and inexperience of achieving, has been to make phone use simpler, particularly for the elderly and infirm.</p>
 
-            <p>I would love you to give it a try. It's currently only available for Android phones. Just head over to Google Play Store and download it. An iPhone version will be available soon. I know you won't be disappointed.</p>
+            <p>I would love you to give it a try. Ezefone is a web app — no download required. It works on any smartphone, iPhone or Android. Just visit the link, follow the simple install steps, and it's ready to use. I know you won't be disappointed.</p>
 
             <p className="font-semibold">Warm regards and hearty thanks.</p>
 
