@@ -1,4 +1,9 @@
+"use client";
+
+import { useState } from "react";
+
 export default function TestimonialsSection() {
+  const [storyOpen, setStoryOpen] = useState(false);
   const testimonials = [
     {
       name: "Margaret",
@@ -78,6 +83,17 @@ export default function TestimonialsSection() {
             </p>
           </div>
 
+          <div className="text-center mb-6">
+            <button
+              onClick={() => setStoryOpen(!storyOpen)}
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-phone text-white font-semibold hover:opacity-90 transition-all"
+            >
+              {storyOpen ? "Close story" : "Read Martin's story"}
+              <span className={`transition-transform duration-200 ${storyOpen ? "rotate-180" : ""}`}>▼</span>
+            </button>
+          </div>
+
+          {storyOpen && (
           <div className="max-w-3xl mx-auto space-y-5 text-text_primary text-base md:text-lg leading-relaxed">
             <p>Hi, I'm Martin. I would like to tell you my story. I am a 70 years-old retiree. Like many of my own age and older, I have friends who lack confidence in using modern smartphones. Too complicated, too cluttered, too…..well, everything. Perhaps you understand and agree!</p>
 
@@ -126,6 +142,7 @@ export default function TestimonialsSection() {
               </p>
             </div>
           </div>
+          )}
         </div>
 
       </div>
