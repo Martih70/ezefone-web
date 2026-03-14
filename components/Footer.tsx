@@ -3,24 +3,7 @@ export default function Footer() {
     <footer className="bg-dark_gray text-white py-12 border-t border-dark_gray_light shadow-lg">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Media Posts */}
-        <div className="mb-10 pb-10 border-b border-gray-700">
-          <h3 className="font-semibold text-lg mb-6">Media Posts</h3>
-          <div className="flex justify-center">
-            <iframe
-              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02ibduyPFZXQm13rGpYqiNmW2t8BGRqdYRNquwPhK1qzLUyQeNe3BoGEVagouHwB8Cl%26id%3D61582031554811&show_text=true&width=500"
-              width="500"
-              height="404"
-              style={{ border: "none", overflow: "hidden" }}
-              scrolling="no"
-              frameBorder="0"
-              allowFullScreen
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            />
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -50,6 +33,21 @@ export default function Footer() {
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Media */}
+          <div>
+            <h3 className="font-semibold mb-4">Media</h3>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="/media-posts"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Media Posts
                 </a>
               </li>
             </ul>
