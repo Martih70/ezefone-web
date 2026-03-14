@@ -10,6 +10,7 @@ import PricingSection from "@/components/PricingSection";
 import InstallSection from "@/components/InstallSection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
+import FacebookBanner from "@/components/FacebookBanner";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <InstallSection />
       <FAQSection />
       <Footer />
+      <FacebookBanner />
     </main>
   );
 }
