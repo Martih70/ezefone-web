@@ -33,6 +33,17 @@ export default function HeroSection({ onDownloadClick }: HeroSectionProps) {
                 Get Ezefone — £2.99
               </a>
             </div>
+            <p className="text-sm text-text_secondary leading-relaxed">
+              <strong className="text-text_primary">Try it risk-free.</strong>{" "}
+              Not right for you or your parent?{" "}
+              <a
+                href="mailto:info@ezefone.co.uk"
+                className="underline hover:text-text_primary transition-colors"
+              >
+                Email us
+              </a>{" "}
+              within 14 days for a full refund, no questions asked.
+            </p>
           </div>
 
           {/* Right: Phone Mockup */}
