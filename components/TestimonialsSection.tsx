@@ -39,7 +39,28 @@ export default function TestimonialsSection() {
           </p>
         </div>
 
+        {/*
+          DEMO VIDEO PLACEHOLDER
+          To add a real video later, replace the inner <div> with:
+            <video
+              src="YOUR_VIDEO_URL_OR_PATH"
+              poster="YOUR_THUMBNAIL_URL"
+              controls
+              className="w-full h-full object-cover"
+            />
+          Or swap for a YouTube/Vimeo <iframe> with the same className.
+        */}
+        <div className="relative max-w-3xl mx-auto mb-16 rounded-2xl overflow-hidden bg-slate-800 aspect-video flex flex-col items-center justify-center shadow-2xl">
+          <div className="w-20 h-20 rounded-full border-4 border-white/70 flex items-center justify-center mb-5">
+            <span className="text-white text-4xl ml-1 leading-none">▶</span>
+          </div>
+          <p className="text-white text-xl font-semibold tracking-wide">Demo video coming soon</p>
+          <p className="text-white/60 text-sm mt-2">See how easy Ezefone is to use</p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+          {/* PLACEHOLDER TESTIMONIALS — replace with real, verified quotes before
+              relying on this section for marketing claims. */}
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
