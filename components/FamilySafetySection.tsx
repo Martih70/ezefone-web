@@ -43,37 +43,23 @@ export default function FamilySafetySection() {
         {/* Screenshot pair */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
 
-          {/*
-            HOME SCREEN SCREENSHOT
-            To use a real image, replace the inner <div> with:
+          <div className="flex-1 max-w-xs mx-auto sm:mx-0">
+            <div className="relative rounded-2xl overflow-hidden aspect-[9/16] shadow-2xl">
               <img
                 src="/screenshots/home-screen.png"
-                alt="Ezefone home screen showing Call and Text buttons"
-                className="w-full h-full object-cover"
+                alt="Ezefone home screen showing favourite contacts with Call and Text buttons"
+                className="w-full h-full object-cover object-top"
               />
-          */}
-          <div className="flex-1 max-w-xs mx-auto sm:mx-0">
-            <div className="relative rounded-2xl overflow-hidden bg-slate-800 aspect-[9/16] flex flex-col items-center justify-center shadow-2xl">
-              <span className="text-4xl mb-3">📱</span>
-              <p className="text-white text-sm font-semibold">Screenshot coming soon</p>
-              <p className="text-white/60 text-xs mt-1 px-4 text-center">Home screen — Call &amp; Text buttons</p>
             </div>
           </div>
 
-          {/*
-            FAMILY SAFETY SETTINGS SCREENSHOT
-            To use a real image, replace the inner <div> with:
+          <div className="flex-1 max-w-xs mx-auto sm:mx-0">
+            <div className="relative rounded-2xl overflow-hidden aspect-[9/16] shadow-2xl">
               <img
                 src="/screenshots/family-safety.png"
                 alt="Ezefone Family Safety settings screen"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
-          */}
-          <div className="flex-1 max-w-xs mx-auto sm:mx-0">
-            <div className="relative rounded-2xl overflow-hidden bg-slate-800 aspect-[9/16] flex flex-col items-center justify-center shadow-2xl">
-              <span className="text-4xl mb-3">🛡️</span>
-              <p className="text-white text-sm font-semibold">Screenshot coming soon</p>
-              <p className="text-white/60 text-xs mt-1 px-4 text-center">Family Safety settings screen</p>
             </div>
           </div>
         </div>
