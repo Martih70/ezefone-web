@@ -21,6 +21,13 @@ export default function FeaturesSection() {
       description:
         "Accessed directly in the app. Video/phone calls, messages - all in one place.",
     },
+    {
+      icon: "💬",
+      title: "One-tap messaging",
+      color: "bg-blue-100",
+      description:
+        "Tap Text on any favourite card and Messages opens ready to go — no hunting for numbers.",
+    },
   ];
 
   return (
