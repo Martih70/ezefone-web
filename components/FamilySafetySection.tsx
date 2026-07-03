@@ -21,11 +21,11 @@ export default function FamilySafetySection() {
         "A gentle email to you if they haven't opened their phone by mid-morning. Nothing intrusive, just peace of mind.",
     },
     {
-      icon: "💬",
-      title: "One-tap Text",
-      color: "bg-blue-100",
+      icon: "🛡️",
+      title: "Nuisance calls",
+      color: "bg-slate-100",
       description:
-        "No fiddly typing to find a number, just tap and message the people who matter.",
+        "Ezefone guides you through your phone's own settings to silence unknown numbers — so scammers and cold callers simply don't get through.",
     },
   ];
 
