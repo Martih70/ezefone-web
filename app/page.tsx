@@ -7,7 +7,6 @@ import FeaturesSection from "@/components/FeaturesSection";
 import FamilySafetySection from "@/components/FamilySafetySection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
-import InstallSection from "@/components/InstallSection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import FacebookBanner from "@/components/FacebookBanner";
@@ -22,7 +21,6 @@ export default function Home() {
       <FamilySafetySection />
       <TestimonialsSection />
       <PricingSection />
-      <InstallSection />
       <FAQSection />
       <Footer />
       <FacebookBanner />
