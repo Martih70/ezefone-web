@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ComparisonSection from "@/components/ComparisonSection";
 import FeaturesSection from "@/components/FeaturesSection";
-import HowItWorksSection from "@/components/HowItWorksSection";
 import FamilySafetySection from "@/components/FamilySafetySection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
@@ -20,7 +19,6 @@ export default function Home() {
       <HeroSection />
       <ComparisonSection />
       <FeaturesSection />
-      <HowItWorksSection />
       <FamilySafetySection />
       <TestimonialsSection />
       <PricingSection />
