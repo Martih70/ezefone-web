@@ -12,7 +12,7 @@ export default function FeaturesSection() {
       title: "Your contacts",
       color: "bg-contacts",
       description:
-        "See all your contacts clearly. Add favourites for even faster access.",
+        "Add only contacts that you need directly in the app. Add favourites for even faster access.",
     },
     {
       icon: "💚",
