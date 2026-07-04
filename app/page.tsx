@@ -2,6 +2,7 @@
 
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import PlayStoreSection from "@/components/PlayStoreSection";
 import ComparisonSection from "@/components/ComparisonSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import FamilySafetySection from "@/components/FamilySafetySection";
@@ -16,6 +17,7 @@ export default function Home() {
     <main>
       <Navbar />
       <HeroSection />
+      <PlayStoreSection />
       <ComparisonSection />
       <FeaturesSection />
       <FamilySafetySection />
