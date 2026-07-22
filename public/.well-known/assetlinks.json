@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.martin.ezefone",
+        "sha256_cert_fingerprints": ["CA:F4:79:7D:57:8C:E8:F3:4B:48:6C:D5:65:3C:56:D8:03:9B:F6:31:EB:5A:9A:C4:42:0E:4C:02:89:36:5E:C3"]
+      }
+    }]
